@@ -1,13 +1,21 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    flex-wrap: wrap;
+/*CSS vaule for body  tag: this property will controll the background margining */
+body {
+    margin:0;
 }
 
-/*CSS vaule for body  tag: this property will controll the background color
-of the app */
-.headerDivSection {
-    background-color: #355764;
+/*CSS vaule for header Div Section: this property will controll the background color
+for header div section*/
+.topHeaderSection {
+    background-color: #5A8F7B;
+}
+
+/*CSS vaule for header Div Section h1 and p tag: this property will controll the background margining*/
+.leftHeaderSection h1,p{
+    margin-left: 25px;
+}
+
+.rightHeaderSection nav ul{
+    float: right;
+    margin-right:100px ;
 }
 
