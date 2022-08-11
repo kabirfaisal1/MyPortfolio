@@ -6,16 +6,70 @@ body {
 /*CSS vaule for header Div Section: this property will controll the background color
 for header div section*/
 .topHeaderSection {
-    background-color: #5A8F7B;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    background-color: #00856f;
 }
 
-/*CSS vaule for header Div Section h1 and p tag: this property will controll the background margining*/
-.leftHeaderSection h1,p{
-    margin-left: 25px;
+/*.headerSection{
+    width: 370px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 0px;
+    margin: 0;
+    border: 0;
+    clear: left;
+    float: left;
+    text-align: left;
+    overflow: hidden;
+    vertical-align: top;
+  
+}*/
+
+.headerParagraph{
+    width: 100px;
+    display: inline;
+}
+.innerText{
+    font-style: italic;
+    text-decoration: solid;
 }
 
-.rightHeaderSection nav ul{
-    float: right;
-    margin-right:100px ;
+.headerSection .navHeaderSection{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    z-index: 999;
+    display: block;
+    width: 100%;
+    max-width: 1270px;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 45px;
+    padding-left: 45px;
+    background-color: transparent;
+}
+
+.navHeaderSection ul li{
+    position: relative;
+    display: inline;
+    right: 200 px;
+    vertical-align: top;
+    text-decoration: none;
+    margin-left: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background-color: #00856f;
+    -webkit-transition: .2s;
+    transition: .2s;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: .04em;
 }
 
