@@ -11,38 +11,28 @@ for header div section*/
     background-color: #00856f;
 }
 
-/*.headerSection{
-    width: 370px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 0px;
-    margin: 0;
-    border: 0;
-    clear: left;
-    float: left;
-    text-align: left;
-    overflow: hidden;
-    vertical-align: top;
-  
-}*/
 
 .headerParagraph{
     width: 100px;
+    font-family: 'Courier New', monospace;;
     display: inline;
 }
 .innerText{
     font-style: italic;
     text-decoration: solid;
+    font-family: Apple Chancery;
+}
+.headerSection h1{
+    font-family: Chalkduster ;
 }
 
 .headerSection .navHeaderSection{
     position: fixed;
+    font-family: "Brush Script MT", cursive;
     left: 0;
     top: 0;
     right: 0;
     bottom: auto;
-    z-index: 999;
     display: block;
     width: 100%;
     max-width: 1270px;
@@ -56,18 +46,16 @@ for header div section*/
 
 .navHeaderSection ul li{
     position: relative;
+    font-family: Andale Mono ;
+    float: right;
+    float: top;
     display: inline;
-    right: 200 px;
+    right: 200px;
     vertical-align: top;
     text-decoration: none;
     margin-left: 10px;
     padding-right: 20px;
     padding-left: 20px;
-    border-radius: 4px;
-    background-color: #00856f;
-    -webkit-transition: .2s;
-    transition: .2s;
-    color: #fff;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: .04em;
