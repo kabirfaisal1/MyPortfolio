@@ -3,25 +3,65 @@
 
     <head class="browserTabs">  <!--This is controll browser tab names and icons-->
         <meta charset="UTF-8">
-        <link href="css/style.css" rel="stylesheet">
+        <link href="../MyPortfolio/cssHelpers/style.css" rel="stylesheet">
         <title>Kabir Faisal</title>
         <link class="myIcon" rel="icon" type="image/x-icon" href="../MyPortfolio/images/favicon.ico">
     </head>
 
     <body>  <!--This is controll the page boody-->
-        <div class="headerDivSection">
-            
-                <h1 class="pageTitle">
-                    I'm Kabir Faisal
-                </h1>
-                 <p class="headerParagraph">a QA Engineer, Automation Lead, Sr.SDET and insired 
-                    Full-Stack Web Developer</p>
-            
-        </div>
-    
+        <header class="topHeaderSection">
+            <div class="banner" id="appBanner">
+                 <!--Title-->
+                 <div class="headerContact" id="headerContact">
+                    <img src="../MyPortfolio/images/avatar.png" alt="this my avatar" id="siteLog" >
+                    <div class="containerOne">
+                        <h1 class="passTitle">I'm Kabir</h1>
+                        <p class="headerParagraph">a QA Engineer, Automation Lead, Sr.SDET and <span class="innerText">inspiring</span>  
+                            Full-Stack Web Developer
+                        </p>
+                                
+                        <nav class="headerNavSections"  id="headerNavSection">
+                            <ul>
+                                <li>
+                                    <a href="#contactMe">Contact</a> <!--is link to search-engine-optimization on the body-->
+                                </li>
+                                <li>
+                                    <a href="#mywork">Work</a> <!--is link to search-engine-optimization on the body-->
+                                </li>
+                                <li>
+                                    <a href="#mySkill">Skill</a> <!--is link to search-engine-optimization on the body-->
+                                </li>
+                                <li>
+                                    <a href="#aboutMe">About Me</a> <!--is link to search-engine-optimization on the body-->
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                
+            </div>
+         </header>
+            <section class="pageTopSection">
+                <div class="bodyLeftcontainer" id="secOneLeftcontainer">
+                    <h1 id="aboutMe" class="bodyLeftcontainerOneHeader">About Me</h1>
+                    <img src="../MyPortfolio/images/MyPhoto.png" alt="this is my photo" id="myimg">
+                    <p id="headerParagraph">Hello Welcome to my page <br>
+                       I am QA Engineer with solid understanding and knowledge in pull SDLC (software development life cycle) of both manual and automated testing process.
+                    </p>
+                </div>
+            </section>
+            <section class="pageMiddleSection">
+                <div class="bodyMiddlecontainer" id="secOneMiddlecontainer">
+                    <h1 id="myWork" class="secOneMiddlecontainerHeader">My Work</h1>
+                </div>
+            </section>
+            <section class="pageButtomSection">
+                <div class="bodyRightcontainer" id="secOneRightcontainer">
+                    <h1 id="mySkill" class="secRightcontainerHeader">My Skill</h1>
+                </div>
+            </section>
     </body>
 
     <footer> <!--This is controll the page footer-->
-
+        Call me
     </footer>
 </html>

@@ -1,13 +1,140 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+/*CSS vaule for body  tag: this property will controll the background margining */
+body {
+    margin:0;
+max-width: 1366px;
+}
+
+section{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+/*CSS vaule for header Div Section: this property will controll the background color
+for header div section*/
+.topHeaderSection #appBanner{
+    background-color: #CED89E;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+}
+/*this controll the site log*/
+#appBanner #siteLog{
+    margin-left: 40px;
+    margin-top: 40px;
+    padding-left: 20px;
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    display: inline;
     flex-wrap: wrap;
 }
+#headerContact{
+    position: relative;
+}
+/*this controll headerContainer(s)*/
+.containerOne{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+ .passTitle{
+    font-family: Chalkduster ;
+    margin-top: 60px;
+    padding-left: 70px;
+    margin-left: 100px;
+    position: relative;
+}
+.headerParagraph{
+    width: 100px;
+    font-family: 'Courier New', monospace;;
+    display: inline;
+    margin-left: 20px;
+    padding-left: 150px;
+    padding-top: 75px;
+    flex-wrap: wrap;
+}
+.innerText{
+    font-style: italic;
+    text-decoration: solid;
+    font-family: Apple Chancery;
+}
+#headerNavSection ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
 
-/*CSS vaule for body  tag: this property will controll the background color
-of the app */
-.headerDivSection {
-    background-color: #355764;
+
+}
+#headerNavSection ul li {
+   float: right;
+   position: relative;
+   float: top;
+}
+#headerNavSection ul li a {
+    display: block;
+    color: #A149FA;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    flex-wrap: wrap; 
+}
+ #headerNavSection ul li a:hover {
+    color: white;
+ }
+
+
+
+
+
+.pageTopSection, .pageMiddleSection,.pageButtomSection{
+
+    padding: 80px 80px 80px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#aboutMe{
+    float: left;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    position: relative;
+}
+#myimg{
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding-left: 20px;
+    width: 250px;
+    height: 250px;
+    display: inline;
+    flex-wrap: wrap;
+    position: relative;
+}
+#headerParagraph{
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+    float: right;
+    display: inline;
+    margin: 20px 20px 20px 20px;
+    padding: 30px 30px 30px 30px;
+    border: solid;
+
+}
+.pageTopSection{
+    background-color: #ADCF9F;
+}
+.pageMiddleSection{
+    background-color: #94B49F;
+}.pageButtomSection{
+    background-color: #7F5283;
 }
 
+footer{
+    background-color: #B2A4FF;
+}
