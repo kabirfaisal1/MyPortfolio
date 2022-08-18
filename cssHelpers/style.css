@@ -6,9 +6,24 @@ body {
 /*CSS vaule for header Div Section: this property will controll the background color
 for header div section*/
 .topHeaderSection {
-    padding-top: 200px;
-    padding-bottom: 100px;
+
+    padding: 80px 80px 80px ;
     background-color: #00856f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#appBanner #siteLog{
+    padding-left: 10px;
+    vertical-align: middle;
+
+}
+#appBanner .passTitle{
+    font-family: Chalkduster ;
+    border: solid;
+    display: inline;
+    justify-content: space-between;
+    margin: top;
 }
 
 
@@ -16,48 +31,13 @@ for header div section*/
     width: 100px;
     font-family: 'Courier New', monospace;;
     display: inline;
+
 }
 .innerText{
     font-style: italic;
     text-decoration: solid;
     font-family: Apple Chancery;
 }
-.headerSection h1{
-    font-family: Chalkduster ;
-}
 
-.headerSection .navHeaderSection{
-    position: fixed;
-    font-family: "Brush Script MT", cursive;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: auto;
-    display: block;
-    width: 100%;
-    max-width: 1270px;
-    margin-top: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 45px;
-    padding-left: 45px;
-    background-color: transparent;
-}
 
-.navHeaderSection ul li{
-    position: relative;
-    font-family: Andale Mono ;
-    float: right;
-    float: top;
-    display: inline;
-    right: 200px;
-    vertical-align: top;
-    text-decoration: none;
-    margin-left: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: .04em;
-}
 
