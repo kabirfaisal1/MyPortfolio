@@ -1,67 +1,78 @@
-<!DOCTYPE <!DOCTYPE html>
-<html lang="en-us">
-
-    <head class="browserTabs">  <!--This is controll browser tab names and icons-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
         <meta charset="UTF-8">
+        
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous">
+
         <link href="../MyPortfolio/cssHelpers/style.css" rel="stylesheet">
         <title>Kabir Faisal</title>
-        <link class="myIcon" rel="icon" type="image/x-icon" href="../MyPortfolio/images/favicon.ico">
+        <link class="myIcon" rel="icon" type="image/x-icon"
+            href="../MyPortfolio/images/favicon.ico">
     </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark" id="header_navbar">
+            <a class="navbar-brand" href="#">
+                <img src="../MyPortfolio/images/avatar.png"
+                    width="80" height="80" alt="this my
+                    avatar" id="siteLog">
+            </a>
 
-    <body>  <!--This is controll the page boody-->
-        <header class="topHeaderSection">
-            <div class="banner" id="appBanner">
-                 <!--Title-->
-                 <div class="headerContact" id="headerContact">
-                    <img src="../MyPortfolio/images/avatar.png" alt="this my avatar" id="siteLog" >
-                    <div class="containerOne">
-                        <h1 class="passTitle">I'm Kabir</h1>
-                        <p class="headerParagraph">a QA Engineer, Automation Lead, Sr.SDET and <span class="innerText">inspiring</span>  
-                            Full-Stack Web Developer
-                        </p>
-                                
-                        <nav class="headerNavSections"  id="headerNavSection">
-                            <ul>
-                                <li>
-                                    <a href="#contactMe">Contact</a> <!--is link to search-engine-optimization on the body-->
-                                </li>
-                                <li>
-                                    <a href="#mywork">Work</a> <!--is link to search-engine-optimization on the body-->
-                                </li>
-                                <li>
-                                    <a href="#mySkill">Skill</a> <!--is link to search-engine-optimization on the body-->
-                                </li>
-                                <li>
-                                    <a href="#aboutMe">About Me</a> <!--is link to search-engine-optimization on the body-->
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#aboutMe">About Me</a> <!--is link to search-engine-optimization on the body-->
+                    </li>
+                    <li class="nav-item">
+                        <a  class="nav-link"href="#mySkill">Skill</a> <!--is link to search-engine-optimization on the body-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mywork">Work</a> <!--is link to search-engine-optimization on the body-->
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"
+                            href="#"
+                            id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Projects link
+                        </a>
+                        <div class="dropdown-menu"
+                            aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another
+                                action</a>
+                            <a class="dropdown-item" href="#">Something
+                                else
+                                here</a>
+                        </div>
+                    </li>
+                </ul>
+                <div>
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search"
+                            placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0"
+                            type="submit">Search</button>
+                    </form>
+                </div>
             </div>
-         </header>
-            <section class="pageTopSection">
-                <div class="bodyLeftcontainer" id="secOneLeftcontainer">
-                    <h1 id="aboutMe" class="bodyLeftcontainerOneHeader">About Me</h1>
-                    <img src="../MyPortfolio/images/MyPhoto.png" alt="this is my photo" id="myimg">
-                    <p id="headerParagraph">Hello Welcome to my page <br>
-                       I am QA Engineer with solid understanding and knowledge in pull SDLC (software development life cycle) of both manual and automated testing process.
-                    </p>
-                </div>
-            </section>
-            <section class="pageMiddleSection">
-                <div class="bodyMiddlecontainer" id="secOneMiddlecontainer">
-                    <h1 id="myWork" class="secOneMiddlecontainerHeader">My Work</h1>
-                </div>
-            </section>
-            <section class="pageButtomSection">
-                <div class="bodyRightcontainer" id="secOneRightcontainer">
-                    <h1 id="mySkill" class="secRightcontainerHeader">My Skill</h1>
-                </div>
-            </section>
+        </nav>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     </body>
 
-    <footer> <!--This is controll the page footer-->
-        Call me
-    </footer>
 </html>
