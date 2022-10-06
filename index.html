@@ -39,14 +39,14 @@
                             <!--is link to search-engine-optimization on the body-->
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#mySkill">Skill</a> <!--is link to search-engine-optimization on the body-->
+                            <a class="nav-link" id="skillModule" href="#mySkill">Skill</a> <!--is link to search-engine-optimization on the body-->
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#mywork">Work</a> <!--is link to search-engine-optimization on the body-->
+                            <a class="nav-link" id="experienceModule" href="#myExperience">Experience</a> <!--is link to search-engine-optimization on the body-->
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle"
-                                href="#projects"
+                                href=""
                                 id="navbarDropdownMenuLink" role="button"
                                 data-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false">
@@ -54,24 +54,27 @@
                             </a>
                             <div class="dropdown-menu"
                                 aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another
-                                    action</a>
-                                <a class="dropdown-item" href="#">Something
-                                    else
-                                    here</a>
+                                <a class="dropdown-item" href="#myProjects">All</a>
+                                <a class="dropdown-item" target="_blank" href="https://kabirfaisal1.github.io/JavaScriptQuiz/">JavaScriptQuiz</a>
+                                <a class="dropdown-item" target="_blank" href="https://kabirfaisal1.github.io/WorkDayScheduler/">Work Day Scheduler</a>
+                                <a class="dropdown-item" target="_blank" href="https://kabirfaisal1.github.io/PasswordGenerater/">Password Generate</a>
+                                <!-- <a class="dropdown-item" target="_blank" href="#">Place Holder</a> -->
                             </div>
                         </li>
                     </ul>
-                    <div>
+                    <!-- <div>
                         <form class="form-inline" autocomplete="off">
-                            <input class="form-control mr-sm-2" type="search"
-                                placeholder="Search" aria-label="Search">
-                                <div id="result"></div>
+                            <input class="form-control mr-sm-2" type="text"
+                                placeholder="Search" aria-label="Search"
+                                onKeyUp="showResults(this.value)"
+                                id="searchInput"/>
+                                
                             <button class="btn btn-outline-success my-2 my-sm-0"
                                id="btn" type="submit">Search</button>
+                              
                         </form>
-                    </div>
+                        <div id="result"></div>
+                    </div> -->
                 </div>
             </div>
             </nav>
@@ -137,11 +140,20 @@
                 </div>
             </div>
             <div class="container mt-4" id="mainContainer">
-                <h3 id="projects">Featured Projects</h3>
+                <h3 id="myExperience">Experience</h3>
+
                 <p>COMING SOON</p>
-                <div>
+              
     
-                </div>
+            </div>
+            <div class="container mt-4" id="mySkillContainer">
+                <h3 id="myProjects">Featured Projects</h3>
+                <p>COMING SOON</p>
+          
+    
+            </div>
+
+
             </div>
 
        

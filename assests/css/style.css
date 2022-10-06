@@ -65,6 +65,8 @@ html {
   #result {
     border: 1px dotted #ccc;
     padding: 3px;
+    visibility: hidden;
+    background-color: aqua;
   }
   #result ul {
     list-style-type: none;
