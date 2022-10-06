@@ -43,7 +43,7 @@ html {
   }
 
   #mySkillContainer{
-    background-color: #F96666;
+    background-color: #B4CDE6;
     text-align: center;
   }
   #mainContainer,#mySkillContainer{
@@ -52,4 +52,30 @@ html {
     margin-bottom: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
+  }
+  #btn{
+    background-color: aqua;
+    color: black;
+  }
+  #btn:hover{
+    background-color: aquamarine;
+    color: gray;
+  }
+
+  #result {
+    border: 1px dotted #ccc;
+    padding: 3px;
+    visibility: hidden;
+    background-color: aqua;
+  }
+  #result ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  #result ul li {
+    padding: 5px 0;
+  }
+  #result ul li:hover {
+    background: #eee;
   }

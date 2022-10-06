@@ -4,6 +4,7 @@
 # Hugo files
 /resources/
 /.hugo_build.lock
+node_modules
 
 # Numerous always-ignore extensions
 *.diff
