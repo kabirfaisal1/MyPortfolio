@@ -1,5 +1,5 @@
 # My Portfolio
-This is my portfolio to showcase your skills and talents as a full-stack developer.
+This is my portfolio to showcase my skills and talents as a full-stack developer.
 
 # Deployed 
 ```
